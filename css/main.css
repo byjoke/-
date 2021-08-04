@@ -96,13 +96,7 @@ body,html {
 	justify-content: center;
 	padding: 30px;
 	height: 100%;
-	padding-top: 84pxbackground-image: url(img/home.png);
-
-	background-size: 12px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
+	padding-top: 84px;
 }
 .logo {
 	text-align: center;
