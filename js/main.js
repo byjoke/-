@@ -207,7 +207,7 @@ require(['jquery'], function ($) {
 	var bookMarkFn = function (ele, options) {
 		this.$ele = $(ele);
 		this.options = {
-			data: [{ "name": "精选", "url": "choice()", "icon": "icon/discover.png" }, { "name": "酷安", "url": "http://coolapk.com/", "icon": "icon/kuan.png" }, { "name": "Bilibili", "url": "https://m.bilibili.com", "icon": "icon/bilibilibog.png" }, { "name": "知乎", "url": "https://www.zhihu.com", "icon": "icon/zhihu.png" }, { "name": "github", "url": "http://github.com/", "icon": "icon/.png" }],
+			data: [{ "name": "精选", "url": "choice()", "icon": "icon/discover.png" }, { "name": "酷安", "url": "http://coolapk.com/", "icon": "icon/kuan.png" }, { "name": "Bilibili", "url": "https://m.bilibili.com", "icon": "icon/bilibilibog.png" }, { "name": "知乎", "url": "https://www.zhihu.com", "icon": "icon/zhihu.png" }, { "name": "github", "url": "http://github.com/", "icon": "icon/github.png" }],
 		};
 		this.options = $.extend({}, this.options, options);
 		this.init();
