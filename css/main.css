@@ -17,7 +17,7 @@ html{-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size
 a{color:var(--dark);text-decoration:none;}
 ul,li{list-style-type:none}
 body {
-		background: url("../img/home.png") no-repeat center center fixed;
+		background: url("http://acg.yanwz.cn/wallpaper/api.php") no-repeat center center fixed;
                 
                 -webkit-background-size: cover;
                 -o-background-size: cover;                
