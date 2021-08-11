@@ -17,12 +17,11 @@ html{-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size
 a{color:var(--dark);text-decoration:none;}
 ul,li{list-style-type:none}
 body {
-	font-size: 14px;
-	background: var(--bg);
-	background-size: 100%;
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+		background: url("../img/home.png") no-repeat center center fixed;
+                
+                -webkit-background-size: cover;
+                -o-background-size: cover;                
+                background-size: cover;
 }
 body,html {
 	height: 100%;
